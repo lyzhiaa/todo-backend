@@ -42,4 +42,7 @@ public class User {
 
     @Column(nullable = false)
     private LocalDateTime updatedAt;
+
+    private Boolean disabled;
+    private Boolean enabled;
 }
